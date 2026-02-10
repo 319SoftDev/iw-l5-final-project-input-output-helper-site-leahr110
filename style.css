@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* outline: 2px purple solid; */
+   
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.nav {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #1F3A5F ;
+}
+
+.companyName {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: larger;
+  color: white;
+  padding: 30px;
+}
+
+.payNav {
+  font-size: larger;
+  color: white;
+  padding: 30px;
+  margin-top: 5px;
+}
+
+.titleNav {
+  font-size: larger;
+  color: white;
+  padding: 30px;
+  margin-top: 5px;
+}
+
+.homeNav {
+  font-size: 27px;
+  color: white;
+  padding: 10px 16px;
+  margin-top: -5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#outputBoxCashier {
+    width: 700px;
+    height: 500px;
+    background-color: #E5F0FA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+  
+}
+
+#outputBoxSales {
+    width: 700px;
+    height: 500px;
+    background-color: #E5F0FA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#outputBoxBarista {
+    width: 700px;
+    height: 500px;
+    background-color: #E5F0FA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#outputBoxTeacher {
+    width: 700px;
+    height: 500px;
+    background-color: #E5F0FA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+#outputBoxEmpty{
+    width: 250px;
+    height: 100;
+    background-color: #E5F0FA;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+.hidden {
+  display:none;
+}
+
+/* dropdown button - pay */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.dropbtn {
+  background-color: #1F3A5F;
+  color: white;
+  padding: 10px 16px;
+  font-size: 27px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.dropbtn:hover {
+  background-color: rgb(113, 169, 218);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: aliceblue;
+}
+
+.show {
+  display: block;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+input[type=text] , select {
+
+  width: 250px;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+input[type=submit] {
+  background-color: aliceblue;
+  color: black;
+  padding: 14px;
+  /* margin: 8px 0; */
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #E5F0FA;
+}
+
+#job {
+  width: 50px;
+  height: 50px;
+}
+
+.applybtn {
+  background-color:blue;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.cashier1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  
+}
+
+.cashier2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.cashier3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sales1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  
+}
+
+.sales2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.sales3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.barista1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  
+}
+
+.barista2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.barista3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.teacher1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  
+}
+
+.teacher2 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.teacher3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
