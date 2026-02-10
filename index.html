@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="companyName">
+                <img src="icons8-job-search-50.png" alt="job" id="job">
+                <h1>JobSearch</h2>
+            </div>
+            <div class="homeNav">
+                <button class="dropbtn">Home</button>
+            </div>
+            <div class="dropdown">
+                <button onclick="toggleDropdown('dropdown1')" class="dropbtn">Pay</button>
+                <div id="dropdown1" class="dropdown-content">
+                    <a href="#">Hourly</a>
+                    <a href="#">Weekly</a>
+                    <a href="#">Yearly</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button onclick="toggleDropdown('dropdown2')" class="dropbtn">Title</button>
+                <div id="dropdown2" class="dropdown-content">
+                    <a href="#">Cashier</a>
+                    <a href="#">Server</a>
+                    <a href="#">Bank Teller</a>
+                </div>
+            </div>
+        </div>
+        <div class="searchBar">
+            <!-- <p>🔍︎ SEARCH</p> -->
+            <input type="text" id="search" placeholder="Search">
+            <input type="submit" value="Submit" id="submit">
+        </div>
+        <div id="outputBoxCashier" class='hidden'>
+            <div class="cashier1">
+                <h2>Admitting Clerk/Cashier - Maimonides Medical Center</h2>
+                <h3>4802 10th Avenue, Brooklyn, NY 11219</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="cashier2">
+                <h2>Duane Reade Cashier - Walgreens</h2>
+                <h3>1517 Cortelyou Road, Brooklyn, NY 11226</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="cashier3">
+                <h2>Cashier - SNIPES</h2>
+                <h3>958 Flatbush Avenue, Brooklyn, NY 11226</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+        </div>
+        <div id="outputBoxSales" class='hidden'>
+            <div class="sales1">
+                <h2>Sales Associate - Five Below</h2>
+                <h3>120-03 18th Avenue, Brooklyn, NY 11356</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="sales2">
+                <h2>Stock Associate - Hollister Co. Stores</h2>
+                <h3>2509 Flatbush, Brooklyn, NY 11234</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="sales3">
+                <h2>Retail Sales Associate - Old Navy</h2>
+                <h3>1009 Flatbush Avenue, Brooklyn, NY 11226</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+        </div>
+        <div id="outputBoxBarista" class='hidden'>
+            <div class="barista1">
+                <h2>Barista - Starbucks</h2>
+                <h3>33 Hillel Pl #42, Brooklyn, NY 11210</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="barista2">
+                <h2>Barista in Training - Joe Coffee</h2>
+                <h3>45 Washington Street, Brooklyn, NY 11201</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="barista3">
+                <h2>Barista - Miski Cafe</h2>
+                <h3>Brooklyn, NY 11225</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+        </div>
+        <div id="outputBoxTeacher" class='hidden'>
+            <div class="teacher1">
+                <h2>Middle School Tutors - PRACTICE</h2>
+                <h3>Brooklyn, NY 11207</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="teacher2">
+                <h2>Grades 3-5 Math &or ELA Tutors - PRACTICE </h2>
+                <h3> Brooklyn, NY 11203</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+            <div class="teacher3">
+                <h2>Math & ELA Academic Support Tutor - PRACTICE</h2>
+                <h3>Brooklyn, NY 11203</h3>
+                <button class="applybtn">APPLY NOW</button>
+            </div>
+        </div>
+        <div id="outputBoxEmpty" class='hidden'>
+            <p>No Positions Open</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
